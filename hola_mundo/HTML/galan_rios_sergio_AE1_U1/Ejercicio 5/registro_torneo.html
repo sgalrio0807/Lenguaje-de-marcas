@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Registro Torneo eSports</title>
+   
+</head>
+<body>
+    <h1>Registro Torneo eSports</h1>
+    <form>
+        <div>
+            <label for="usuario">Nombre de usuario:</label><br />
+            <input type="text" id="usuario" name="usuario" />
+        </div>
+        
+        <div>
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" />
+        </div>
+
+        <div>
+            <label for="pass">Contraseña:</label><br />
+            <input type="password" id="pass" name="pass" />
+        </div>
+		</br>
+        <div>
+            <label for="fecha">Fecha de nacimiento:</label><br />
+            <input type="date" id="fecha" name="fecha" />
+        </div>
+		</br>
+        <div>
+            <label>Plataforma:</label><br />
+            <input type="radio" id="pc" name="plataforma" value="PC" />
+            <label for="pc">PC</label>
+            <input type="radio" id="switch" name="plataforma" value="Switch" />
+            <label for="switch">Switch</label>
+            <input type="radio" id="mobile" name="plataforma" value="Mobile" />
+            <label for="mobile">Mobile</label>
+        </div>
+		</br>
+        <div>
+            <label>Juegos:</label><br />
+            <input type="checkbox" id="minecraft" name="juegos" value="Minecraft" />
+            <label for="minecraft">Minecraft</label>
+            <input type="checkbox" id="fortnite" name="juegos" value="Fortnite" />
+            <label for="fortnite">Fortnite</label>
+            <input type="checkbox" id="amongus" name="juegos" value="Among Us" />
+            <label for="amongus">Among Us</label>
+        </div>
+		</br>
+        <div>
+            <label for="nivel">Nivel:</label><br />
+            <select id="nivel" name="nivel">
+                <option value="">Selecciona</option>
+                <option value="Principiante">Principiante</option>
+                <option value="Intermedio">Intermedio</option>
+                <option value="Avanzado">Avanzado</option>
+            </select>
+        </div>
+		</br>
+        <div>
+            <label for="comentarios">Comentarios:</label><br />
+            <textarea id="comentarios" name="comentarios" rows="3" cols="30"></textarea>
+        </div>
+		</br>
+        <div>
+            <button type="submit">Enviar Inscripción</button>
+        </div>
+    </form>
+</body>
+</html>
