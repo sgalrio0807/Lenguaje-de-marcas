@@ -1,0 +1,23 @@
+h1{
+    color: rgb(0, 95, 63);
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://blogsaverroes.juntadeandalucia.es/iestorrredelosguzmanes/files/2023/12/Cabecera-nueva-TDG-1.png);
+    padding: 50px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    background-image: url(https://media.licdn.com/dms/image/v2/D4D0BAQHG3yyTHaaGwQ/company-logo_200_200/company-logo_200_200/0/1701941637498/ies_torre_de_los_guzmanes_logo?e=2147483647&v=beta&t=56ytSZSNOsyfvMDPO3Ei7A8WRAGhAotMKkUVFYFEkPU);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img{
+    float:right ;
+}
+
+p{
+
+    background-color: rgb(8, 167, 127);
+}
