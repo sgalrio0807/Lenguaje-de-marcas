@@ -13,6 +13,31 @@ h1{
     background-position: center;
 }
 
+.main{color: brown;
+
+}
+
+a:visited{
+    color: chartreuse;
+}
+
+a:hover{
+    color: darkorange;
+    text-decoration: none;
+}
+
+li{
+    float: left;
+    margin-left: 5%;
+}
+
+header, main, footer{
+    overflow: auto;
+}
+
+aside{
+    float: left;
+}
 .img{
     float:right ;
 }
