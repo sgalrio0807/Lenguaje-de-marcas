@@ -1,0 +1,12 @@
+body{
+    background: rgb(93, 159, 246);
+}
+
+.center{
+    margin: auto;
+    width: 100px;
+    border: 3px;
+    padding: 10px
+}
+
+
