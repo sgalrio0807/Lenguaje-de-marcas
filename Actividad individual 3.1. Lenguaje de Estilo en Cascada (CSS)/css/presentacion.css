@@ -1,0 +1,29 @@
+/* Fuente general y fondo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+h3{
+    color: rgb(55, 133, 222);
+}
+
+/* Tarjeta */
+.card {
+    width: 350px;           /* Ancho fijo */
+    margin: 50px auto;      /* Centrada */
+    padding: 20px;          /* Espacio interior */
+    background: white;      /* Fondo blanco */
+    border: 1px solid #ccc; /* Borde suave */
+    text-align: center;     /* Centrar texto */
+    border-radius: 10px;    /* Bordes redondeados */
+}
+
+/* Imagen redonda */
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;     /* Hace la imagen circular */
+    object-fit: cover;      /* Evita deformaciones */
+    margin-bottom: 15px;
+}
