@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- La web se adapta al ancho del movil y nivel del zoom es 1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Torneo de eSports</title>
+    <link rel="stylesheet" href="../css/registro_torneo.css">
+</head>
+<body>
+
+    <h1>Registro para el Torneo de eSports</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Datos Personales</legend>
+
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="nacimiento" name="nacimiento" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Juego Principal</legend>
+
+            <label for="juego">Selecciona tu juego:</label>
+            <select id="juego" name="juego" required>
+                <option value="">-- Selecciona un juego --</option>
+                <option value="valorant">Valorant</option>
+                <option value="fortnite">Fortnite</option>
+                <option value="rocket league">Rocket League</option>
+                <option value="gta">Grand Theft Auto</option>
+                <option value="fifa">EA Sports FC</option>
+            </select>
+
+            <p>Plataforma Principal:</p>
+            <label><input type="radio" name="plataforma" value="pc" required> PC</label>
+            <label><input type="radio" name="plataforma" value="play" required> PlayStation</label>
+            <label><input type="radio" name="plataforma" value="xbox" required> Xbox</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Otros Detalles</legend>
+
+            <p>Juegos de interés:</p>
+            <label><input type="checkbox" name="interes" value="lol"> League of Legends</label>
+            <label><input type="checkbox" name="interes" value="super mario"> Super Mario</label>
+            <label><input type="checkbox" name="interes" value="cs2"> Counter-Strike 2</label>
+
+            <label for="comentarios">Comentarios adicionales:</label>
+            <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+        </fieldset>
+
+        <button type="submit">Enviar Registro</button>
+    </form>
+
+</body>
+</html>
