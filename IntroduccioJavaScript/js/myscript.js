@@ -3,23 +3,23 @@
 /*var table = "Normal Table";
 let chair = "One chair";
 console.log(table); 
-console.log(chair);
+console.log(chair);*/
 
-tipo de variables
+/*tipo de variables
 let testBoolean = false;
 console.log(testBoolean);
 let testNumber = 10;
 console.log(testNumber);
 let testString = 'test';
-console.log(testString);
+console.log(testString);*/
 
-Orientado a objetos
+/*Orientado a objetos
 let testBooleanObject = new Boolean(true);
 console.log(testBooleanObject);
 let testStringObject = new String('text');
-console.log(testStringObject);
+console.log(testStringObject);*/
 
-Concatenacion de variables
+/*Concatenacion de variables
 let name = 'Jhon';
 let surname = 'Doe';
 let question = 'How are you ' +name+ ' ' +surname+ '?';
