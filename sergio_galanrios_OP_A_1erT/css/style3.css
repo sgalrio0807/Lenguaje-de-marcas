@@ -1,0 +1,19 @@
+body { font-family: Tahoma; margin:0; }
+header {
+    background: #eee;
+    padding: 12px;
+    text-align: center;
+}
+section {
+    padding: 15px;
+}
+ul li {
+    margin-bottom: 8px;
+}
+footer {
+    background: #222;
+    color:white;
+    text-align:center;
+    padding: 10px;
+}
+a { margin:15px; display:inline-block; }
