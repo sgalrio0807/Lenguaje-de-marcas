@@ -38,5 +38,39 @@ let surname = 'Doe';
 let question = 'How are you ' .concat(name)+' ' .concat(surname)+ '?';
 console.log(question);*/
 
+//array
+/*var first_array = [];
+var second_array = new Array(1);
+var third_array = new Array(3,5,6,8);
+var fourth_array = new Array(3,5,"Sevilla","La Algaba",true,third_array)
 
+console.log(third_array[1]);
+console.log(fourth_array[5][0]);
+fourth_array.push("Andalucia")
+console.log(fourth_array[6])
 
+for (let i=0; i<fourth_array.length;i++){
+    console.log("El valor de i es " + i)
+    console.log(fourth_array[1]);
+}*/
+
+//if dni
+/*var dni_regex = /^(\d{8})([A-Z])$/;
+let dni = "12345678K";
+if(dni.match(dni_regex)){
+    console.log("DNI corecto");
+}else{
+    console.log("DNI incorrecto");
+}
+
+let today = new Date();
+console.log(today.getDay());*/
+
+//Myfirstfunction() se ejecuta al hacer clip en el boton
+
+function Myfirstfunction(nombre, apellidos){
+    console.log("Mi nombre es: " +nombre+ " y mi apellido es: " +apellidos);
+}
+function Myfirstfunction_ok(){
+    console.log("Thanks for your interest");
+}
