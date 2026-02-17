@@ -7,18 +7,48 @@
     <ciclo_formativo>
         <nombre nom = 'dam'></nombre>
         <modulos>
-            <modulo>Programación</modulo> 
-            <modulo>Bases de Datos</modulo> 
-            <modulo>Entornos de Desarrollo</modulo> 
+            <modulo>
+                <nombre>Programación</nombre>
+                <numhoras>260</numhoras>
+                <periodoacademico>25/26</periodoacademico>
+                <nota>10</nota>
+            </modulo> 
+            <modulo>
+                <nombre>BBDD</nombre>
+                <numhoras>230</numhoras>
+                <periodoacademico>25/26</periodoacademico>
+                <nota>8</nota>
+            </modulo>
+            <modulo>
+                <nombre>Lenguaje de marcas</nombre>
+                <numhoras>155</numhoras>
+                <periodoacademico>25/26</periodoacademico>
+                <nota>6</nota>
+            </modulo>
         </modulos>
     </ciclo_formativo>
 
     <ciclo_formativo>
         <nombre tipo = 'deporte'></nombre>
         <modulos>
-            <modulo>Tiempo libre</modulo> 
-            <modulo>Valoración</modulo> 
-            <modulo>Metodología de la enseñanza</modulo> 
+            <modulo>
+                <nombre>Individuales</nombre>
+                <numhoras>300</numhoras>
+                <periodoacademico>24/25</periodoacademico>
+                <nota>9</nota>
+            </modulo> 
+            <modulo>
+                <nombre>Colectivos</nombre>
+                <numhoras>210</numhoras>
+                <periodoacademico>24/25</periodoacademico>
+                <nota>7</nota>
+            </modulo>
+            <modulo>
+                <nombre>Valoración</nombre>
+                <numhoras>140</numhoras>
+                <periodoacademico>24/25</periodoacademico>
+                <nota>10</nota>
+            </modulo>
         </modulos>
     </ciclo_formativo>
 
