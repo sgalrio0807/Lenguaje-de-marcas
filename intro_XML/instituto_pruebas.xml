@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='ISO-8859-15'?>
+<instituto>
+    <datos_instituto total_alumnado = '350' total_profesorado = '75'>
+        <nombre_instituto>I.E.S. Torre de los Guzmanes</nombre_instituto>
+    </datos_instituto>
+    <docentes></docentes>
+    <alumnado></alumnado>
+    <pas></pas>
+</instituto>
