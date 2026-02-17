@@ -1,18 +1,61 @@
 <?xml version='1.0' encoding='ISO-8859-15'?>
 <sede id_centro = ''>
+
     <total_alumnos num = '250'></total_alumnos>
-    <ubicacion ubi = ''></ubicacion>
+    <ubicacion ubi = 'La Algaba'></ubicacion>
+
     <ciclo_formativo>
         <nombre nom = 'dam'></nombre>
+        <modulos>
+            <modulo>Programación</modulo> 
+            <modulo>Bases de Datos</modulo> 
+            <modulo>Entornos de Desarrollo</modulo> 
+        </modulos>
     </ciclo_formativo>
+
     <ciclo_formativo>
         <nombre tipo = 'deporte'></nombre>
+        <modulos>
+            <modulo>Tiempo libre</modulo> 
+            <modulo>Valoración</modulo> 
+            <modulo>Metodología de la enseñanza</modulo> 
+        </modulos>
     </ciclo_formativo>
+
     <departamento>
         <nombre especifico = 'informatica'></nombre>
+        <jefe>Javi Prada</jefe> 
+        <aulas> 
+            <aula>22</aula> 
+            <aula>23</aula> 
+        </aulas>
     </departamento>
+
     <departamento>
         <nombre especifico = 'matematicas'></nombre>
     </departamento>
+
     <docentes id_docente = '' id_docente2 = ''></docentes>
+
+    <matricula>
+        <nombre especifico = 'primer curso'></nombre>
+        <dni>12345678A</dni> 
+    </matricula>
+
+    <alumnado>
+        <alumno id=''>
+            <nombre>Isidro</nombre>
+            <edad>22</edad>
+            <ciclo>dam</ciclo>
+            <curso>1</curso>
+        </alumno>
+
+        <alumno id=''>
+            <nombre>Enrique</nombre>
+            <edad>55</edad>
+            <ciclo>deporte</ciclo>
+            <curso>4</curso>
+        </alumno>
+    </alumnado>
+
 </sede>
