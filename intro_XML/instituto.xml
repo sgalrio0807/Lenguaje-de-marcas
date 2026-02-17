@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='ISO-8859-15'?>
+<sede id_centro = ''>
+    <total_alumnos num = '250'></total_alumnos>
+    <ubicacion ubi = ''></ubicacion>
+    <ciclo_formativo>
+        <nombre nom = 'dam'></nombre>
+    </ciclo_formativo>
+    <ciclo_formativo>
+        <nombre tipo = 'deporte'></nombre>
+    </ciclo_formativo>
+    <departamento>
+        <nombre especifico = 'informatica'></nombre>
+    </departamento>
+    <departamento>
+        <nombre especifico = 'matematicas'></nombre>
+    </departamento>
+    <docentes id_docente = '' id_docente2 = ''></docentes>
+</sede>
