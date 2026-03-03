@@ -1,0 +1,43 @@
+<!ELEMENT sede (ubicacion, total_alumnos, ciclos_formativos, departamentos, docentes, alumnado)>
+<!ATTLIST sede id_centro CDATA #REQUIRED>
+
+<!ELEMENT ubicacion (#PCDATA)>
+<!ELEMENT total_alumnos (#PCDATA)>
+
+<!ELEMENT ciclos_formativos (ciclo+)>
+
+<!ELEMENT ciclo (nombre, modulos)>
+<!ATTLIST ciclo id CDATA #REQUIRED>
+
+<!ELEMENT modulos (modulo+)>
+
+<!ELEMENT modulo (nombre, num_horas, periodo_academico, nota)>
+<!ATTLIST modulo id CDATA #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT num_horas (#PCDATA)>
+<!ELEMENT periodo_academico (#PCDATA)>
+<!ELEMENT nota (#PCDATA)>
+
+<!ELEMENT departamentos (departamento+)>
+
+<!ELEMENT departamento (nombre, jefe?, aulas?)>
+<!ATTLIST departamento id CDATA #REQUIRED>
+
+<!ELEMENT jefe (#PCDATA)>
+<!ELEMENT aulas (aula+)>
+<!ELEMENT aula (#PCDATA)>
+
+<!ELEMENT docentes (docente+)>
+<!ELEMENT docente EMPTY>
+<!ATTLIST docente id CDATA #REQUIRED>
+
+<!ELEMENT alumnado (alumno+)>
+
+<!ELEMENT alumno (nombre, edad, ciclos, curso, dni?)>
+<!ATTLIST alumno id CDATA #REQUIRED>
+
+<!ELEMENT ciclos (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT curso (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>

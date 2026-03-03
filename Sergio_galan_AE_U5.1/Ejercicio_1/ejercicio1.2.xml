@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<!DOCTYPE sede SYSTEM "ejercicio1.dtd">
+<sede id_centro="050">
+
+    <ubicacion>Santiponce</ubicacion>
+    <total_alumnos>355</total_alumnos>
+
+    <ciclos_formativos>
+
+        <ciclo id="cocina">
+            <nombre>Cocina</nombre>
+            <modulos>
+                <modulo id="verduras">
+                    <nombre>Verduras</nombre>
+                    <num_horas>200</num_horas>
+                    <periodo_academico>24/25</periodo_academico>
+                    <nota>7</nota>
+                </modulo>
+                <modulo id="pasta">
+                    <nombre>pasta</nombre>
+                    <num_horas>180</num_horas>
+                    <periodo_academico>24/25</periodo_academico>
+                    <nota>8</nota>
+                </modulo>
+            </modulos>
+        </ciclo>
+
+    </ciclos_formativos>
+
+    <departamentos>
+
+        <departamento id="frutas">
+            <nombre>Departamento de fruta</nombre>
+            <jefe>Antonio Pérez</jefe>
+            <aulas>
+                <aula>12</aula>
+                <aula>14</aula>
+            </aulas>
+        </departamento>
+
+        <departamento id="procesados">
+            <nombre>Departamento de procesados</nombre>
+        </departamento>
+
+        <departamento id="bolleria">
+            <nombre>Departamento de bolleria</nombre>
+        </departamento>
+
+    </departamentos>
+
+    <docentes>
+        <docente id="profesor1"/>
+        <docente id="profesor2"/>
+    </docentes>
+
+    <alumnado>
+
+        <alumno id="alumno 1">
+            <nombre>Perico</nombre>
+            <edad>21</edad>
+            <ciclos>Cocina</ciclos>
+            <curso>1</curso>
+            <dni>44556677X</dni>
+        </alumno>
+
+        <alumno id="alumno 2">
+            <nombre>Pepe</nombre>
+            <edad>32</edad>
+            <ciclos>Cocina</ciclos>
+            <curso>2</curso>
+        </alumno>
+
+    </alumnado>
+
+</sede>

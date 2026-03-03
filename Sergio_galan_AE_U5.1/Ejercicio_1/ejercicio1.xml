@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<!DOCTYPE sede SYSTEM "ejercicio1.dtd">
+<sede id_centro="001">
+    
+    <ubicacion>La Algaba</ubicacion>
+    <total_alumnos>250</total_alumnos>
+    <!-- Aquí comienzan dos ciclos-->
+    <ciclos_formativos>
+        <!-- Primer ciclo-->
+        <ciclo id="dam">
+            <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+            <modulos>
+                <modulo id="programacion">
+                    <nombre>Programación</nombre>
+                    <num_horas>260</num_horas>
+                    <periodo_academico>25/26</periodo_academico>
+                    <nota>10</nota>
+                </modulo>
+                <modulo id="base de datos">
+                    <nombre>Bases de Datos</nombre>
+                    <num_horas>230</num_horas>
+                    <periodo_academico>25/26</periodo_academico>
+                    <nota>8</nota>
+                </modulo>
+                <modulo id="lenguaje de marcas">
+                    <nombre>Lenguaje de Marcas</nombre>
+                    <num_horas>155</num_horas>
+                    <periodo_academico>25/26</periodo_academico>
+                    <nota>6</nota>
+                </modulo>
+            </modulos>
+        </ciclo>
+        <!-- Segundo ciclo-->
+        <ciclo id="deporte">
+            <nombre>Deporte</nombre>
+            <modulos>
+                <modulo id="individuales">
+                    <nombre>Individuales</nombre>
+                    <num_horas>300</num_horas>
+                    <periodo_academico>24/25</periodo_academico>
+                    <nota>9</nota>
+                </modulo>
+                <modulo id="colectivos">
+                    <nombre>Colectivos</nombre>
+                    <num_horas>210</num_horas>
+                    <periodo_academico>24/25</periodo_academico>
+                    <nota>7</nota>
+                </modulo>
+                <modulo id="valoracion">
+                    <nombre>Valoración</nombre>
+                    <num_horas>140</num_horas>
+                    <periodo_academico>24/25</periodo_academico>
+                    <nota>10</nota>
+                </modulo>
+            </modulos>
+        </ciclo>
+
+    </ciclos_formativos>
+    <!--Departamentos y sus datos-->
+    <departamentos>
+        <departamento id="informatica">
+            <nombre>Informática</nombre>
+            <jefe>Javi Prada</jefe>
+            <aulas>
+                <aula>22</aula>
+                <aula>23</aula>
+            </aulas>
+        </departamento>
+
+        <departamento id="matematicas">
+            <nombre>Matemáticas</nombre>
+        </departamento>
+    </departamentos>
+    <!-- Docentes y alumnos-->
+    <docentes>
+        <docente id="docente1"/>
+        <docente id="docente2"/>
+    </docentes>
+
+    <alumnado>
+        <alumno id="alumno1">
+            <nombre>Isidro</nombre>
+            <edad>22</edad>
+            <ciclos>dam</ciclos>
+            <curso>1</curso>
+            <dni>12345678A</dni>
+        </alumno>
+
+        <alumno id="alumno2">
+            <nombre>Enrique</nombre>
+            <edad>55</edad>
+            <ciclos>deporte</ciclos>
+            <curso>4</curso>
+        </alumno>
+    </alumnado>
+
+</sede>
