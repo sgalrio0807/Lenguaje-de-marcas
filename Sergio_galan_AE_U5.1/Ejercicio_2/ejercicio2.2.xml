@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sistema SYSTEM "ejercicio2.dtd">
+
+<sistema>
+
+    <!-- Alumnos -->
+    <alumnos>
+        <alumno id="alumno1">
+            <nombre>Estefania</nombre>
+            <tipo>Universitaria</tipo>
+        </alumno>
+
+        <alumno id="alumno2">
+            <nombre>Daniel</nombre>
+            <tipo>Grado Superior</tipo>
+        </alumno>
+    </alumnos>
+
+    <!-- Personal -->
+    <personal>
+        <empleado id="empleado2">
+            <nombre>Manuel</nombre>
+            <puesto>Técnico</puesto>
+        </empleado>
+    </personal>
+
+    <!-- Sedes -->
+    <sedes>
+        <sede id="porvenir">
+            <nombre>Porvenir</nombre>
+        </sede>
+
+        <sede id="cartuja">
+            <nombre>Cartuja</nombre>
+        </sede>
+    </sedes>
+
+    <!-- Materiales -->
+    <materiales>
+
+        <material id="camara1">
+            <categoria>Cámara</categoria>
+            <descripcion>Cámara Sony</descripcion>
+        </material>
+
+        <material id="camara2">
+            <categoria>Cámara</categoria>
+            <descripcion>Canon EOS</descripcion>
+        </material>
+
+    </materiales>
+
+    <!-- Préstamos -->
+    <prestamos>
+
+        <prestamo id="prestamo1">
+            <alumno_ref>alumno2</alumno_ref>
+            <material_ref>camara2</material_ref>
+            <empleado_ref>empleado2</empleado_ref>
+            <sede_retiro_ref>cartuja</sede_retiro_ref>
+            <sede_devolucion_ref>porvenir</sede_devolucion_ref>
+            <fecha_retiro>2026-03-03</fecha_retiro>
+            <fecha_devolucion>2026-03-06</fecha_devolucion>
+        </prestamo>
+
+    </prestamos>
+
+</sistema>

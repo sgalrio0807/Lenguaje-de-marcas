@@ -3,96 +3,96 @@
 
 <sistema>
 
-    <!-- Tiendas físicas del cliente -->
+    <!-- Tiendas del cliente -->
     <tiendas>
         <tienda id="tienda1">
-            <nombre>Tienda xiaomi</nombre>
-            <localidad>Valencina</localidad>
+            <nombre>Tienda iphone</nombre>
+            <localidad>camas</localidad>
         </tienda>
 
         <tienda id="tienda2">
-            <nombre>Tienda motorola</nombre>
-            <localidad>Sevilla</localidad>
+            <nombre>tienda huawei</nombre>
+            <localidad>Santiponce</localidad>
         </tienda>
     </tiendas>
 
     <!-- Proveedores -->
     <proveedores>
         <proveedor id="proveedor1">
-            <nombre>Samsung España</nombre>
-            <pais>Corea del Sur</pais>
+            <nombre>Proveedor de macs</nombre>
+            <pais>China</pais>
         </proveedor>
 
         <proveedor id="proveedor2">
-            <nombre>Xiaomi Iberia</nombre>
-            <pais>China</pais>
+            <nombre>Google</nombre>
+            <pais>Estados Unidos</pais>
         </proveedor>
     </proveedores>
 
     <!-- Empleados -->
     <empleados>
         <empleado id="empleado1">
-            <nombre>Diego</nombre>
-            <puesto>Vendedor</puesto>
+            <nombre>Sergio</nombre>
+            <puesto>Encargado</puesto>
         </empleado>
 
         <empleado id="empleado2">
-            <nombre>Lucía</nombre>
-            <puesto>Atención al cliente</puesto>
+            <nombre>Marcos</nombre>
+            <puesto>Vendedor</puesto>
         </empleado>
     </empleados>
 
-    <!-- Clientes registrados -->
+    <!-- Clientes -->
     <clientes>
         <cliente id="cliente1">
-            <nombre>Álvaro</nombre>
+            <nombre>Juan José</nombre>
             <tipo>Particular</tipo>
         </cliente>
 
         <cliente id="cliente2">
-            <nombre>Paula</nombre>
+            <nombre>Angela</nombre>
             <tipo>Particular</tipo>
         </cliente>
     </clientes>
 
-    <!-- Móviles disponibles -->
+    <!-- Móviles -->
     <moviles>
 
-        <!-- Android gama media -->
+        <!-- Android puro -->
         <movil id="movil1">
             <marca>Samsung</marca>
-            <modelo>Galaxy A54</modelo>
-            <precio>349</precio>
+            <modelo>S23</modelo>
+            <precio>799</precio>
         </movil>
 
-        <!-- Android gama alta -->
+        <!-- Android gama media -->
         <movil id="movil2">
-            <marca>Xiaomi</marca>
-            <modelo>13T Pro</modelo>
-            <precio>699</precio>
+            <marca>Realme</marca>
+            <modelo>Realme 11 Pro</modelo>
+            <precio>399</precio>
         </movil>
 
     </moviles>
 
-    <!-- Ventas realizadas -->
+    <!-- Ventas -->
     <ventas>
 
-        <!-- Venta realizada por Sergio en Santiponce -->
+        <!-- Venta en La Algaba -->
         <venta id="venta1">
             <movil_ref>movil1</movil_ref>
             <cliente_ref>cliente1</cliente_ref>
             <empleado_ref>empleado1</empleado_ref>
             <tienda_ref>tienda1</tienda_ref>
-            <fecha>2026-03-01</fecha>
+            <fecha>2026-03-02</fecha>
         </venta>
 
-        <!-- Venta en Camas -->
+        <!-- Venta en Santiponce -->
         <venta id="venta2">
             <movil_ref>movil2</movil_ref>
             <cliente_ref>cliente2</cliente_ref>
             <empleado_ref>empleado2</empleado_ref>
             <tienda_ref>tienda2</tienda_ref>
-            <fecha>2026-03-04</fecha>
+            <fecha>2026-03-05</fecha>
         </venta>
 
     </ventas>

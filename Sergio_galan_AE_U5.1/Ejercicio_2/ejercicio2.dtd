@@ -1,0 +1,37 @@
+<!ELEMENT sistema (alumnos, personal, sedes, materiales, prestamos)>
+
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (nombre, tipo)>
+<!ATTLIST alumno id CDATA #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+
+<!ELEMENT personal (empleado+)>
+<!ELEMENT empleado (nombre, puesto)>
+<!ATTLIST empleado id CDATA #REQUIRED>
+
+<!ELEMENT puesto (#PCDATA)>
+
+<!ELEMENT sedes (sede+)>
+<!ELEMENT sede (nombre)>
+<!ATTLIST sede id CDATA #REQUIRED>
+
+<!ELEMENT materiales (material+)>
+<!ELEMENT material (categoria, descripcion)>
+<!ATTLIST material id CDATA #REQUIRED>
+
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+
+<!ELEMENT prestamos (prestamo+)>
+<!ELEMENT prestamo (alumno_ref, material_ref, empleado_ref, sede_retiro_ref, sede_devolucion_ref, fecha_retiro, fecha_devolucion)>
+<!ATTLIST prestamo id CDATA #REQUIRED>
+
+<!ELEMENT alumno_ref (#PCDATA)>
+<!ELEMENT material_ref (#PCDATA)>
+<!ELEMENT empleado_ref (#PCDATA)>
+<!ELEMENT sede_retiro_ref (#PCDATA)>
+<!ELEMENT sede_devolucion_ref (#PCDATA)>
+<!ELEMENT fecha_retiro (#PCDATA)>
+<!ELEMENT fecha_devolucion (#PCDATA)>

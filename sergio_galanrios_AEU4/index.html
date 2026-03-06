@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cuestionario de Fútbol Español</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>Cuestionario de Fútbol Español</h1>
+
+    <form id="cuestionario" onsubmit="return validar();">
+
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" oninput="validarNombre()">
+        <span id="err-nombre" class="error-msg"></span>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" oninput="validarEmail()">
+        <span id="err-email" class="error-msg"></span>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" min="5" max="120" oninput="validarEdad(); validarFecha();">
+        <span id="err-edad" class="error-msg"></span>
+
+        <label for="equipo">Equipo español favorito:</label>
+        <select id="equipo" name="equipo" onchange="validarEquipo()">
+            <option value="">Selecciona uno</option>
+            <option value="Real Madrid">Real Madrid</option>
+            <option value="FC Barcelona">FC Barcelona</option>
+            <option value="Atlético de Madrid">Atlético de Madrid</option>
+            <option value="Real Betis">Real Betis</option>
+        </select>
+        <span id="err-equipo" class="error-msg"></span>
+
+        <label for="jugador">Jugador español favorito:</label>
+        <input type="text" id="jugador" name="jugador" oninput="validarJugador()">
+        <span id="err-jugador" class="error-msg"></span>
+
+        <label>¿Cuál es tu nivel de fútbol español?</label>
+        <div class="grupo" onchange="validarNivel()">
+            <label><input type="radio" name="nivel" value="Básico"> Básico</label>
+            <label><input type="radio" name="nivel" value="Intermedio"> Intermedio</label>
+            <label><input type="radio" name="nivel" value="Avanzado"> Avanzado</label>
+        </div>
+        <span id="err-nivel" class="error-msg"></span>
+
+        <label>¿Has asistido a un partido en un estadio?</label>
+        <div class="grupo" onchange="validarEstadio()">
+            <label><input type="radio" name="estadio" value="Sí"> Sí</label>
+            <label><input type="radio" name="estadio" value="No"> No</label>
+        </div>
+        <span id="err-estadio" class="error-msg"></span>
+
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha" onchange="validarFecha()">
+        <span id="err-fecha" class="error-msg"></span>
+
+        <label>Competiciones que sigues:</label>
+        <div class="grupo" onchange="validarComp()">
+            <label><input type="checkbox" name="competiciones" value="LaLiga"> LaLiga</label>
+            <label><input type="checkbox" name="competiciones" value="Copa del Rey"> Copa del Rey</label>
+            <label><input type="checkbox" name="competiciones" value="Supercopa"> Supercopa</label>
+            <label><input type="checkbox" name="competiciones" value="Champions League"> Champions League</label>
+        </div>
+        <span id="err-comp" class="error-msg"></span>
+
+        <label for="opinion">¿Qué opinas del fútbol español?</label>
+        <textarea id="opinion" name="opinion" rows="4" oninput="validarOpinion()"></textarea>
+        <span id="err-opinion" class="error-msg"></span>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

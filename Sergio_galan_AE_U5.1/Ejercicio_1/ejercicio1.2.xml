@@ -4,9 +4,10 @@
 
     <ubicacion>Santiponce</ubicacion>
     <total_alumnos>355</total_alumnos>
+    <!-- Aquí comienzan dos ciclos-->
 
     <ciclos_formativos>
-
+        <!-- Primer y único ciclo-->
         <ciclo id="cocina">
             <nombre>Cocina</nombre>
             <modulos>
@@ -26,7 +27,7 @@
         </ciclo>
 
     </ciclos_formativos>
-
+    <!--Departamentos y sus datos-->
     <departamentos>
 
         <departamento id="frutas">
@@ -47,7 +48,7 @@
         </departamento>
 
     </departamentos>
-
+    <!-- Docentes y alumnos-->
     <docentes>
         <docente id="profesor1"/>
         <docente id="profesor2"/>

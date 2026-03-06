@@ -17,6 +17,7 @@ h3{
     border: 1px solid #ccc; /* Borde suave */
     text-align: center;     /* Centrar texto */
     border-radius: 10px;    /* Bordes redondeados */
+    border: 3px solid #000
 }
 
 /* Imagen redonda */

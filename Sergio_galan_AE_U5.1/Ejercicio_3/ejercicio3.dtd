@@ -1,0 +1,44 @@
+<!ELEMENT sistema (tiendas, proveedores, empleados, clientes, moviles, ventas)>
+
+<!ELEMENT tiendas (tienda+)>
+<!ELEMENT tienda (nombre, localidad)>
+<!ATTLIST tienda id CDATA #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+
+<!ELEMENT proveedores (proveedor+)>
+<!ELEMENT proveedor (nombre, pais)>
+<!ATTLIST proveedor id CDATA #REQUIRED>
+
+<!ELEMENT pais (#PCDATA)>
+
+<!ELEMENT empleados (empleado+)>
+<!ELEMENT empleado (nombre, puesto)>
+<!ATTLIST empleado id CDATA #REQUIRED>
+
+<!ELEMENT puesto (#PCDATA)>
+
+<!ELEMENT clientes (cliente+)>
+<!ELEMENT cliente (nombre, tipo)>
+<!ATTLIST cliente id CDATA #REQUIRED>
+
+<!ELEMENT tipo (#PCDATA)>
+
+<!ELEMENT moviles (movil+)>
+<!ELEMENT movil (marca, modelo, precio)>
+<!ATTLIST movil id CDATA #REQUIRED>
+
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+
+<!ELEMENT ventas (venta+)>
+<!ELEMENT venta (movil_ref, cliente_ref, empleado_ref, tienda_ref, fecha)>
+<!ATTLIST venta id CDATA #REQUIRED>
+
+<!ELEMENT movil_ref (#PCDATA)>
+<!ELEMENT cliente_ref (#PCDATA)>
+<!ELEMENT empleado_ref (#PCDATA)>
+<!ELEMENT tienda_ref (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
